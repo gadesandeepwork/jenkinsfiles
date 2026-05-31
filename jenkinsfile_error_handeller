@@ -15,7 +15,7 @@ pipeline {
                     boolean success = false
                     // we are using a keyword called as while which is representing a loop
                     while (retries < maxRetries && !success) {
-                        try  {
+                        try {
                             sh 'mvn tst'  // risk code that will fail
                             success = true // if execution of above line is successful then exit the loop
                         }
@@ -28,7 +28,7 @@ pipeline {
                     if (!success) {
                         // execution of the steps have failed
                     }
-                          {
+                    {
                         error("All attempts have failed")
                     }
                 }
