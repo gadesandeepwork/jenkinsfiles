@@ -10,7 +10,7 @@ pipeline {
                 script {
                     // groovy script
                     // declare 3 variables which will store number value.
-                    int maxRetries = 2   // int = integer = data type store in variable maxRetries 
+                    int maxRetries = 3   // int = integer = data type store in variable maxRetries 
                     int retries = 0
                     boolean success = false
                     // we are using a keyword called as while which is representing a loop
