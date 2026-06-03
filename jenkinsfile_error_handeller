@@ -27,8 +27,6 @@ pipeline {
                     }
                     if (!success) {
                         // execution of the steps have failed
-                    }
-                    {
                         error("All attempts have failed")
                     }
                 }
