@@ -9,7 +9,7 @@ pipeline {
             steps {
                 script {
                     // groovy script
-                    // declare 3 variables which will store number value
+                    // declare 3 variables which will store number value.
                     int maxRetries = 3   // int = integer = data type store in variable maxRetries 
                     int retries = 0
                     boolean success = false
